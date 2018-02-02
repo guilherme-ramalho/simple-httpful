@@ -7,7 +7,6 @@ function httpRequest($url, $sentHeaders = null, $body = null)
 
         $headers = array(
             'Content-Type' => 'application/json',
-            'pin' => '3851'
         );
         
         //Adiciona algum eventual header recebido ao array de headers
